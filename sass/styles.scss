@@ -293,7 +293,7 @@ Hero
 }
 .fixed {
   position: fixed;
-  background-color: rgba(55, 36, 40, .88);
+  background-color: rgba(200, 105, 113, .88);
   z-index: 999;
   width: 100%;
 }
@@ -549,9 +549,9 @@ Features-stack
 }
 
 /* ==========================================================================
-.events
+.gift-list
 ========================================================================== */
-.events {
+.gift-list {
   .leftcol {
     padding-right: 100px;
     border-right: solid 1px $keyline-color;
