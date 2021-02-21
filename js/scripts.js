@@ -241,30 +241,34 @@ $(document).ready(function () {
 
 // Google map
 function initMap() {
-    var location = {lat: 22.5932759, lng: 88.27027720000001};
+    var center = {lat: -6.7593991382082965,lng: -38.2279388515943};
     var map = new google.maps.Map(document.getElementById('map-canvas'), {
-        zoom: 15,
-        center: location,
-        scrollwheel: false
+        zoom: 16,
+        center: center,
+        scrollwheel: true
+    });
+    
+    var location1 = {lat: -6.758557156122863, lng: -38.2283203422936};
+    var marker1 = new google.maps.Marker({
+        position: location1,
+        map: map,
+        label: {
+            text: "Igreja Bom Jesus Eucaristico",
+            color: "#000",
+            fontWeight: "bold"
+        },
     });
 
-    var marker = new google.maps.Marker({
-        position: location,
-        map: map
-    });
-}
+    var location2 = {lat: -6.760593373736183, lng: -38.22803703686691};
 
-function initBBSRMap() {
-    var la_fiesta = {lat: 20.305826, lng: 85.85480189999998};
-    var map = new google.maps.Map(document.getElementById('map-canvas'), {
-        zoom: 15,
-        center: la_fiesta,
-        scrollwheel: false
-    });
-
-    var marker = new google.maps.Marker({
-        position: la_fiesta,
-        map: map
+    var marker2 = new google.maps.Marker({
+        position: location2,
+        map: map,
+        label: {
+            text: "Catete Sousa",
+            color: "#000",
+            fontWeight: "bold"
+        },
     });
 }
 
