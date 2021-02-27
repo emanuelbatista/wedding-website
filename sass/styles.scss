@@ -570,6 +570,10 @@ Features-stack
     .panel {
       color: $txt-secondary;
     }
+    .panel-red {
+      background: rgba(255, 185, 190, 0.88);
+      text-decoration: line-through;
+    }
   }
 }
 

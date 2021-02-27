@@ -235,6 +235,67 @@ $(document).ready(function () {
         }
     });
 
+    (function () {
+        var gifts = [
+            {"description":"Multiprocessador", "chose": false},
+            {"description":"Faqueiro ", "chose": false},
+            {"description":"Jogo de travessas", "chose": false},
+            {"description":"Jogo para café da manhã", "chose": false},
+            {"description":"Açucareiro inox", "chose": false},
+            {"description":"Conj. de panelas antiaderentes", "chose": false},
+            {"description":"Jogo de facas para cozinha", "chose": false},
+            {"description":"Varal de chão", "chose": false},
+            {"description":"Aparelho de jantar 30 peças", "chose": false},
+            {"description":"Conj. de copos para Whisky", "chose": false},
+            {"description":"Conj. de sobremesa", "chose": false},
+            {"description":"Fruteira", "chose": false},
+            {"description":"Jarra inox", "chose": false},
+            {"description":"Petisqueira", "chose": false},
+            {"description":"Potes para condimentos", "chose": false},
+            {"description":"Saladeira", "chose": false},
+            {"description":"Jogo de churrasco", "chose": false},
+            {"description":"Liquidificador", "chose": false},
+            {"description":"Travessas refratárias ", "chose": false},
+            {"description":"Potes de vidro para alimentos", "chose": false},
+            {"description":"Queijeira inox", "chose": false},
+            {"description":"Manteigueira inox", "chose": false},
+            {"description":"Molheira", "chose": false},
+            {"description":"Bandejas diversas", "chose": false},
+            {"description":"Kit de Pegadores de Cozinha", "chose": false}
+        ];
+        
+        gifts.forEach(function (item, index) {
+
+            var append;
+            if(item.chose) {
+                append = '<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">'+
+                    '<div class="panel panel-default panel-red">' +
+                        '<div class="panel-body">'+
+                            '<span>'+item.description+' (Já escolhido)</span>'+
+                        '</div>'+
+                    '</div>'+
+                '</div>'
+            } else {
+                append = '<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">'+
+                    '<div class="panel panel-default">' +
+                        '<div class="panel-body">'+
+                            '<span>'+item.description+'</span>'+
+                        '</div>'+
+                    '</div>'+
+                '</div>'
+            }
+            $('#gifts .row').append(
+                append
+            );
+            if((index+1)%4===0){
+                $('#gifts .row').append('<div class="clearfix"></div>')
+            }
+        });
+        
+    })();
+
+    
+
 });
 
 /********************** Extras **********************/
