@@ -261,7 +261,21 @@ $(document).ready(function () {
             {"description":"Manteigueira inox", "chose": false},
             {"description":"Molheira", "chose": false},
             {"description":"Bandejas diversas", "chose": false},
-            {"description":"Kit de Pegadores de Cozinha", "chose": false}
+            {"description":"Kit de Pegadores de Cozinha", "chose": false},
+            {"description":"Jogo de toalha", "chose": false},
+            {"description":"Jogo de cama", "chose": false},
+            {"description":"Edredom ", "chose": false},
+            {"description":"Jogo de acessórios para banheiro", "chose": false},
+            {"description":"Jogo de toalha de mesa", "chose": false},
+            {"description":"Conj. De taças para champanhe ", "chose": false},
+            {"description":"Conj. De taças de vinho", "chose": false},
+            {"description":"Conj. De bowl", "chose": false},
+            {"description":"Conj. De baixelas", "chose": false},
+            {"description":"Aspirador de pó", "chose": false},
+            {"description":"Mixer", "chose": false},
+            {"description":"Espagueteira", "chose": false},
+            {"description":"Capas para cadeira 6 und.", "chose": false},
+            {"description":"Cortina Blackout para sala 2 peças", "chose": false}
         ];
         
         gifts.forEach(function (item, index) {
