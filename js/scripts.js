@@ -245,7 +245,7 @@ $(document).ready(function () {
             {"description":"Conj. de panelas antiaderentes", "chose": false},
             {"description":"Jogo de facas para cozinha", "chose": false},
             {"description":"Varal de chão", "chose": false},
-            {"description":"Aparelho de jantar 30 peças", "chose": false},
+            {"description":"Aparelho de jantar 30 peças", "chose": true},
             {"description":"Conj. de copos para Whisky", "chose": false},
             {"description":"Conj. de sobremesa", "chose": false},
             {"description":"Fruteira", "chose": false},
@@ -275,6 +275,8 @@ $(document).ready(function () {
             {"description":"Mixer", "chose": false},
             {"description":"Espagueteira", "chose": false},
             {"description":"Capas para cadeira 6 und.", "chose": false},
+            {"description":"Geladeira", "chose": false},
+            {"description":"Air Fryer", "chose": false},
             {"description":"Cortina Blackout para sala 2 peças", "chose": false}
         ];
         
@@ -285,7 +287,7 @@ $(document).ready(function () {
                 append = '<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">'+
                     '<div class="panel panel-default panel-red">' +
                         '<div class="panel-body">'+
-                            '<span>'+item.description+' (Já escolhido)</span>'+
+                            '<span>'+item.description+'</span><span class="chose"> (Já escolhido)</span>'+
                         '</div>'+
                     '</div>'+
                 '</div>'

@@ -569,10 +569,18 @@ Features-stack
   .row-gift-content {
     .panel {
       color: $txt-secondary;
+
+      span, .chose {
+        text-decoration: none;
+      }
     }
     .panel-red {
       background: rgba(255, 185, 190, 0.88);
-      text-decoration: line-through;
+
+      span {
+        text-decoration: line-through;
+      }
+      
     }
   }
 }
