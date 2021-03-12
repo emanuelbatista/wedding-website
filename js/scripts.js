@@ -237,7 +237,7 @@ $(document).ready(function () {
 
     (function () {
         var gifts = [
-            {"description":"Multiprocessador", "chose": false},
+            {"description":"Multiprocessador", "chose": true},
             {"description":"Faqueiro ", "chose": false},
             {"description":"Jogo de travessas", "chose": false},
             {"description":"Jogo para café da manhã", "chose": false},
@@ -254,7 +254,7 @@ $(document).ready(function () {
             {"description":"Potes para condimentos", "chose": false},
             {"description":"Saladeira", "chose": false},
             {"description":"Jogo de churrasco", "chose": false},
-            {"description":"Liquidificador", "chose": false},
+            {"description":"Liquidificador", "chose": true},
             {"description":"Travessas refratárias ", "chose": false},
             {"description":"Potes de vidro para alimentos", "chose": false},
             {"description":"Queijeira inox", "chose": false},
