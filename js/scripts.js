@@ -276,7 +276,7 @@ $(document).ready(function () {
             {"description":"Espagueteira", "chose": false},
             {"description":"Capas para cadeira 6 und.", "chose": false},
             {"description":"Geladeira", "chose": false},
-            {"description":"Air Fryer", "chose": false},
+            {"description":"Air Fryer", "chose": true},
             {"description":"Cortina Blackout para sala 2 peças", "chose": false}
         ];
         
