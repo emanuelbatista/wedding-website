@@ -238,7 +238,7 @@ $(document).ready(function () {
     (function () {
         var gifts = [
             {"description":"Multiprocessador", "chose": true},
-            {"description":"Faqueiro ", "chose": false},
+            {"description":"Faqueiro ", "chose": true},
             {"description":"Jogo de travessas", "chose": false},
             {"description":"Jogo para café da manhã", "chose": false},
             {"description":"Açucareiro inox", "chose": false},
@@ -272,10 +272,9 @@ $(document).ready(function () {
             {"description":"Conj. De bowl", "chose": false},
             {"description":"Conj. De baixelas", "chose": false},
             {"description":"Aspirador de pó", "chose": true},
-            {"description":"Mixer", "chose": false},
+            {"description":"Mixer", "chose": true},
             {"description":"Espagueteira", "chose": false},
             {"description":"Capas para cadeira 6 und.", "chose": false},
-            {"description":"Geladeira", "chose": false},
             {"description":"Air Fryer", "chose": true},
             {"description":"Cortina Blackout para sala 2 peças", "chose": false}
         ];
