@@ -253,7 +253,7 @@ $(document).ready(function () {
             {"description":"Petisqueira", "chose": false},
             {"description":"Potes para condimentos", "chose": false},
             {"description":"Saladeira", "chose": false},
-            {"description":"Jogo de churrasco", "chose": false},
+            {"description":"Jogo de churrasco", "chose": true},
             {"description":"Liquidificador", "chose": true},
             {"description":"Travessas refratárias ", "chose": false},
             {"description":"Potes de vidro para alimentos", "chose": false},
