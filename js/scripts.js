@@ -267,7 +267,7 @@ $(document).ready(function () {
             {"description":"Edredom ", "chose": false},
             {"description":"Jogo de acessórios para banheiro", "chose": false},
             {"description":"Jogo de toalha de mesa", "chose": false},
-            {"description":"Conj. De taças para champanhe ", "chose": false},
+            {"description":"Conj. De taças para champanhe ", "chose": true},
             {"description":"Conj. De taças de vinho", "chose": false},
             {"description":"Conj. De bowl", "chose": false},
             {"description":"Conj. De baixelas", "chose": false},
