@@ -270,7 +270,7 @@ $(document).ready(function () {
             {"description":"Conj. De taças para champanhe ", "chose": true},
             {"description":"Conj. De taças de vinho", "chose": false},
             {"description":"Conj. De bowl", "chose": false},
-            {"description":"Conj. De baixelas", "chose": false},
+            {"description":"Conj. De baixelas", "chose": true},
             {"description":"Aspirador de pó", "chose": true},
             {"description":"Mixer", "chose": true},
             {"description":"Espagueteira", "chose": false},
