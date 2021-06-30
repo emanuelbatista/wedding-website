@@ -263,7 +263,7 @@ $(document).ready(function () {
             {"description":"Bandejas diversas", "chose": false},
             {"description":"Kit de Pegadores de Cozinha", "chose": false},
             {"description":"Jogo de toalha", "chose": false},
-            {"description":"Jogo de cama", "chose": false},
+            {"description":"Jogo de cama", "chose": true},
             {"description":"Edredom ", "chose": false},
             {"description":"Jogo de acessórios para banheiro", "chose": false},
             {"description":"Jogo de toalha de mesa", "chose": false},
